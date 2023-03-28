@@ -900,7 +900,7 @@ footer {
     position: relative;
     right: 1.5vw;
 }
-mstyle{
+.mstyle{
     display: none;
     visibility: hidden;
 }

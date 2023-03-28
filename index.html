@@ -11,35 +11,38 @@
     <link rel="stylesheet" media="screen and (min-width:1000px)" href="css/style_pc.css" />
     <link rel="stylesheet" media="screen and (max-width:999px)" href="css/style_m.css" />
     <script>
-        if (window.screen.width >= 1000) {
-            document.write('<script src="js/script_pc.js"><\/script>');
-        }
         if (window.screen.width < 1000) {
             document.write('<script src="js/script_m.js"><\/script>');
         }
+        else if (window.screen.width >= 1000) {
+            document.write('<script src="js/script_pc.js"><\/script>');
+        }
+
     </script>
 </head>
 
 <body>
-    <header class="cstyle flex_column flex_justify_center" id="header_menu">
-        <div class="flex_row flex_align_center pubCon_70">
-            <div class="header_menu" id="right_border">
-                <ul class="flex_row flex_evenly" id="header_ul">
-                    <li><a href="index.html">トップ</a></li>
-                    <li><a href="profile.html">プロフィール</a></li>
-                    <li><a href="#policy">政策</a></li>
-                    <li><a href="#blog">活動報告</a></li>
-                    <li><a href="#">お問い合わせ</a></li>
-                </ul>
-            </div>
-            <div class="header_sns flex_column flex_justify_center">
-                <ul class="flex_row flex_align_center">
-                    <li><a href="#"><img src="" alt="facebook" id="sns01"></a></li>
-                    <li><a href="#"><img src="" alt="instagram" id="sns02"></a></li>
-                    <li><a href="#"><img src="" alt="twitter" id="sns03"></a></li>
-                    <li><a href="#"><img src="" alt="youtube" id="sns04"></a></li>
-                    <li><a href="#"><img src="" alt="line" id="sns05"></a></li>
-                </ul>
+    <header class="cstyle" id="header_menu">
+        <div class=" flex_column flex_justify_center">
+            <div class="flex_row flex_align_center pubCon_70">
+                <div class="header_menu" id="right_border">
+                    <ul class="flex_row flex_evenly" id="header_ul">
+                        <li><a href="index.html">トップ</a></li>
+                        <li><a href="profile.html">プロフィール</a></li>
+                        <li><a href="#policy">政策</a></li>
+                        <li><a href="#blog">活動報告</a></li>
+                        <li><a href="#">お問い合わせ</a></li>
+                    </ul>
+                </div>
+                <div class="header_sns flex_column flex_justify_center">
+                    <ul class="flex_row flex_align_center">
+                        <li><a href="#"><img src="" alt="facebook" id="sns01"></a></li>
+                        <li><a href="#"><img src="" alt="instagram" id="sns02"></a></li>
+                        <li><a href="#"><img src="" alt="twitter" id="sns03"></a></li>
+                        <li><a href="#"><img src="" alt="youtube" id="sns04"></a></li>
+                        <li><a href="#"><img src="" alt="line" id="sns05"></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
@@ -47,8 +50,7 @@
         <div class="m_icon" id="m_icon"></div>
     </header>
 
-    <a name="top" class="go_to"></a>
-    <section class="top">
+    <section class="top cstyle">
         <div class="top_content flex_column">
             <div class="top_content_text">
                 <p>38歳、サラリーマン出身！<br />
@@ -76,8 +78,36 @@
             </div>
         </a>
     </section>
+    <section class="top mstyle">
+        <div class="top_content">
+            <div class="top_content_text">
+                <p>38歳、サラリーマン出身！<br />
+                    地盤、看板、カバンなしの挑戦！<br />
+                    若さと情熱、行動力で<br />
+                    北区に新しい風を吹かせます！</p>
+            </div>
+            <img src="src/png/m/name_m.png" alt="" id="name_test">
+            <div class="kaneda">
+                <img class="photo" src="src/png/pc/kaneda.png" alt="">
+            </div>
+        </div>
+    </section>
+    <div class="top_content_down mstyle">
+        <div class="top_content_title">
+            <h1>可能性無限大の<br />
+                &nbsp;&nbsp; ふるさとづくり</h1>
+        </div>
+        <a class="top_detail_a" href="#">
+            <div class="top_detail flex_column flex_align_center flex_evenly">
+                金田よしあき<br />
+                プロフィール
+                <img src="src/png/pc/arrow_right.png" alt="">
+            </div>
+        </a>
+    </div>
+
     <a name="blog" class="go_to"></a>
-    <section class="blog">
+    <section class="blog cstyle">
         <div class="section_title">
             <img src="src/png/pc/point.png" alt="">
             <h1>BLOG</h1>
@@ -167,8 +197,98 @@
             </div>
         </a>
     </section>
+    <section class="blog mstyle">
+        <div class="section_title">
+            <img src="src/png/pc/point.png" alt="">
+            <h1>BLOG</h1>
+            <p>活動報告</p>
+        </div>
+        <div class="blog_showbox flex_column flex_align_center flex_evenly">
+            <div class="blog_show">
+                <div class="blog_imgbox">
+                    <a href="">
+                        <img src="src/jpg/m/blog_01_m.jpg" alt="">
+                    </a>
+                </div>
+                <a href="" class="blog_a_m">
+                    <span>2023/3/13</span>
+                    <p>昨日は青少年昭和町地区委員
+                        会の家族ふれあい事業のバス
+                        ハイクのお見送りに行ってき
+                        ました。
+                    </p>
+                </a>
 
-    <section class="message">
+            </div>
+            <div class="blog_show">
+                <div class="blog_imgbox">
+                    <a href="">
+                        <img src="src/jpg/m/blog_02_m.jpg" alt="">
+                    </a>
+                </div>
+                <a href="" class="blog_a_m">
+
+                    <span>2023/3/5</span>
+                    <p>昨日は昭和町区民センターに
+                        て、「金田よしあきと区政を語
+                        る会」を実施いたしました。
+                    </p>
+                </a>
+            </div>
+            <div class="blog_show">
+                <div class="blog_imgbox">
+                    <a href="">
+                        <img src="src/jpg/m/blog_03_m.jpg" alt="">
+                    </a>
+                </div>
+                <a href="" class="blog_a_m">
+
+                    <span>2023/2/18</span>
+                    <p>昨日は都電梶原停留場にて、
+                        朝の駅頭活動を行いました。
+                    </p>
+                </a>
+            </div>
+            <div class="blog_show">
+                <div class="blog_imgbox">
+                    <a href="">
+                        <img src="src/jpg/m/blog_04_m.jpg" alt="">
+                    </a>
+                </div>
+                <a href="" class="blog_a_m">
+                    <span>2023/2/13</span>
+                    <p>
+                        本日午後は栄町の第一パック
+                        様にて、「金田よしあきと区政
+                        を語る会」を開催いたしました。
+                    </p>
+                </a>
+            </div>
+            <div class="blog_show">
+                <div class="blog_imgbox">
+                    <a href="">
+                        <img src="src/jpg/m/blog_05_m.jpg" alt="">
+                    </a>
+                </div>
+                <a href="" class="blog_a_m">
+                    <span>2023/2/12</span>
+                    <p>
+                        本日午前は自民党北区総支部
+                        にて、高木けい総支部長より
+                        公認証をいただきました。
+                    </p>
+                </a>
+            </div>
+        </div>
+        <a href="#" class="blog_btn_a">
+            <div class="blog_btn flex_row flex_align_center">
+                活動報告一覧へ
+                <!-- <img src="src/png/pc/arrow_right.png" alt=""> -->
+            </div>
+        </a>
+    </section>
+
+    <section class="message cstyle">
         <div class="section_title">
             <img src="src/png/pc/point.png" alt="">
             <h1>MESSAGE</h1>
@@ -203,8 +323,44 @@
             </tr>
         </table>
     </section>
+    <section class="message mstyle">
+        <div class="section_title">
+            <img src="src/png/pc/point.png" alt="">
+            <h1>MESSAGE</h1>
+            <p>メッセージ</p>
+        </div>
+        <div class="message_content pubCon_90">
+            <p>私は民間企業のサラリーマンとして勤務する傍ら、休日は地域活動に励んでまいりました。<br />
+                町会役員や青年地区委員など、地域行事のスタッフとして参加させていただく中で、「私たちの街は可能性が大いにあるはずだ！」と強く実感し、志を固
+                めました。<br />
+                名取ひであき先生、藤田隆一先生をはじめとした諸先輩方の築き上げた「ふるさとづくり」をしっかりと継承し、地域の課題に真摯に全力で取り組み、可
+                能性無限大の地域の発展を目指します。<br />
+                地域の皆様、後援会にてご指導、ご鞭撻の程宜しくお願い申し上げます。
+            </p>
+            <span class="right">金田佳晃</span>
+        </div>
+        <table class="">
+            <tr>
+                <td>
+                    <img src="src/jpg/pc/message_01.jpg" alt="">
+                </td>
+                <td>
+                    <img src="src/jpg/pc/message_02.jpg" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="src/jpg/pc/message_03.jpg" alt="">
+                </td>
+                <td>
+                    <img src="src/jpg/pc/message_04.jpg" alt="">
+                </td>
+            </tr>
+        </table>
+    </section>
+
     <a name="policy" class="go_to"></a>
-    <section class="policy">
+    <section class="policy cstyle">
         <div class="section_title">
             <img src="src/png/pc/point.png" alt="">
             <h1>POLICY</h1>
@@ -243,8 +399,47 @@
                 </ul>
             </div>
     </section>
+    <section class="policy mstyle">
+        <div class="section_title">
+            <img src="src/png/pc/point.png" alt="">
+            <h1>POLICY</h1>
+            <p>政策</p>
+        </div>
+        <div class="policy_showbox flex_column pubCon_90">
+            <h2>安全・安心の住みやすいまちづくり</h2>
+            <div class="policy_show">
+                <img src="src/png/m/policy_01_m.png" alt="" class="policy_img1">
+                <ul class="pubCon_90">
+                    <li>昭和町地区・堀船地区・東田端地区を中心とした地域課題の解決</li>
+                    <li>上中里・栄町・堀船地域の不燃化、建て替え促進</li>
+                    <li>コミュニティバス路線の拡充</li>
+                    <li>中里貝塚史跡広場の保存活用</li>
+                    <li>バリアフリー化、電線類地中化の促進</li>
+                    <li>公園に民間の力を導入し、魅力ある公園に</li>
+                </ul>
+            </div>
+            <h2>教育・子育て環境の充実</h2>
+            <div class="policy_show">
+                <img src="src/png/pc/policy_02.png" alt="" class="policy_img2">
+                <ul>
+                    <li>学校校舎の改築、最新技術への対応</li>
+                    <li>郷土史や地域教育の拡充（中里貝塚、渋沢栄一など）</li>
+                    <li>子ども食堂の拡充、支援強化</li>
+                </ul>
+            </div>
+            <h2>地域コミュニティの再生、人材活用</h2>
+            <div class="policy_show">
+                <img src="src/png/pc/policy_03.png" alt="" class="policy_img3">
+                <ul>
+                    <li>空き家、空き店舗の活用</li>
+                    <li>アスリートの部活動地域委託への活用</li>
+                    <li>サークル活動の促進で健康寿命の延伸</li>
+                    <li>「ＩＴ・スマホお助けステーション」の創設 </li>
+                </ul>
+            </div>
+    </section>
 
-    <section class="aboutus">
+    <section class="aboutus cstyle">
         <div class="pubCon_90">
             <div class="aboutus_title">
                 <h1>私たちも応援します！</h1>
@@ -291,8 +486,55 @@
         </div>
 
     </section>
+    <section class="aboutus mstyle">
+        <div class="pubCon_90">
+            <div class="aboutus_title">
+                <h1>私たちも応援します！</h1>
+            </div>
+            <div class="aboutus_showbox flex_column">
+                <div class="aboutus_show">
+                    <img src="src/jpg/pc/us_01.jpg" alt="">
+                    <h3>高木けい</h3>
+                    <p>金田さんは地域や自民党
+                        の活動に20代の頃から積
+                        極的に参加していました。
+                        この間学んできたことを
+                        いよいよ発揮する時です。
+                        地域のホープ、金田さん
+                        を私も全力で応援しま
+                        す！</p>
+                </div>
+                <div class="aboutus_show">
+                    <img src="src/jpg/pc/us_02.jpg" alt="">
+                    <h3>やまだ加奈子</h3>
+                    <p>
+                        志を持ってひたむきに、<br />
+                        確実に、真摯に地域で頑<br />
+                        張っている金田さん。若<br />
+                        さと情熱で北区に地域に<br />
+                        新しい風を呼び込んでく<br />
+                        ださい！
+                    </p>
+                </div>
+                <div class="aboutus_show">
+                    <img src="src/jpg/pc/us_03.jpg" alt="">
+                    <h3>名取ひであき</h3>
+                    <p>
+                        私の活動のスタッフとし<br />
+                        て支えてくれました。地<br />
+                        元でも町会や青少年地区<br />
+                        委員会で活躍する滝五小<br />
+                        の後輩・金田さんに「ふ<br />
+                        るさとづくり」の後を<br />
+                        託します。
+                    </p>
+                </div>
+            </div>
+        </div>
 
-    <section class="funclub">
+    </section>
+
+    <section class="funclub cstyle">
         <div class="pubCon_90 flex_row fun_clubbox">
             <div class="funclub_showbox flex_column flex_between flex_align_start">
                 <h1>金田よしあき後援会</h1>
@@ -368,8 +610,84 @@
         </div>
 
     </section>
+    <section class="funclub mstyle">
+        <div class="pubCon_90 flex_column fun_clubbox">
+            <div class="funclub_showbox flex_column flex_between flex_align_start">
+                <h1>金田よしあき後援会</h1>
+                <a href="" class="funclub_btn_a">
+                    <div class="funclub_btn flex_row flex_align_center">
+                        ご入会はこちら
+                        <!-- <img src="src/png/pc/arrow_right.png" alt=""> -->
+                    </div>
+                </a>
+                <p>後援会事務所
+                    <br />
+                    <br />
+                    〒114-0016 東京都北区上中里2-11-12<br />
+                    TEL/FAX：03-3913-6200
+                </p>
+            </div>
+            <div class="funclub_memberbox flex_column flex_between">
+                <div class="funclub_member">
+                    <p>会長</p>
+                    <table>
+                        <tr>
+                            <td>松本 晴光</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="funclub_member">
+                    <p>副会長</p>
+                    <table>
+                        <tr>
+                            <td>議波 寿男
+                            <td>山田 和夫
+                        </tr>
+                        </tr>
+                        <tr>
+                            <td>大津 美彦</td>
+                            <td>西田 政雄</td>
+                        </tr>
+                        <tr>
+                            <td>杉渕 洋子</td>
+                            <td>利根川 文男</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="funclub_member">
+                    <p>相談役</p>
+                    <table>
+                        <tr>
+                            <td>藤田 隆一</td>
+                            <td>坪野谷 統久</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="funclub_member">
+                    <p>女性部長</p>
+                    <table>
+                        <tr>
+                            <td>小林 京子</td>
+                        </tr>
+                    </table>
+                </div>
 
-    <section class="bottom">
+                <div class="funclub_member">
+                    <p>青年部長</p>
+                    <table>
+                        <tr>
+                            <td>佐藤 正衛</td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="bottom cstyle">
         <div class="pubCon_90 flex_row flex_align_start">
             <div class="bottom_title">
                 <h1>金田よしあき</h1>
@@ -399,7 +717,38 @@
         </div>
 
     </section>
-    <footer>
+    <section class="bottom mstyle">
+        <div class="pubCon_90 flex_column flex_align_center">
+            <div class="bottom_title">
+                <h1>金田よしあき</h1>
+                <img src="src/jpg/pc/kaneda.jpg" alt="">
+            </div>
+            <div class="bottom_info flex_column flex_between flex_align_start">
+                <ul>
+                    <li>昭和59年（1984年）7月29日北区生まれ・北区育ちしし座・A型</li>
+                    <li>まごころ会保育園・滝野川第五小・飛鳥中・北園高・日本大学法学部政治経済学科卒</li>
+                    <li>民間企業にてサラリーマン生活約15年</li>
+                    <li>TOKYO自民党政経塾5〜8期生</li>
+                    <li>上中里貝塚会 青年部副部長</li>
+                    <li>北区青少年昭和町地区委員会推進委員</li>
+                    <li>滝五小同窓会役員</li>
+                </ul>
+                <p>
+                    資格：高等学校第一種教員免許（地理歴史・公民）<br />
+                    中学校第一種教員免許（社会）<br />
+                    宅地建物取引士<br />
+                    ２級ファイナンシャル・プランニング技能士<br />
+                    防災士、２級射出形技能士、認知症サポーター<br />
+                </p>
+                <p>
+                    趣味：ラグビー、スポーツ観戦、読書、観劇、カラオケ、落語鑑賞、まち巡り
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="cstyle">
         <div class="footer_menubox">
             <div class="flex_row flex_align_center pubCon_70">
                 <div class="footerer_menu">
@@ -426,6 +775,35 @@
             <a href="#">このサイトについて</a><a href="#">個人情報保護方針</a>
             <p>Copyright c 2023 Yoshiaki Kaneda All Resrved.</p>
         </div>
+    </footer>
+    <footer class="mstyle">
+        <div class="footer_menubox">
+            <div class="flex_column flex_align_center pubCon_70">
+                <div class="footerer_menu">
+                    <ul class="flex_row flex_evenly">
+                        <!-- <li><a href="index.html">トップ</a></li> -->
+                        <li><a href="profile.html">プロフィール</a></li>
+                        <li><a href="index.html#policy">政策</a></li>
+                        <li><a href="index.html#blog">活動報告</a></li>
+                        <li><a href="#">お問い合わせ</a></li>
+                    </ul>
+                </div>
+                <div class="footer_sns flex_column flex_justify_center">
+                    <ul class="flex_row flex_align_center flex_evenly">
+                        <li><a href="#"><img src="src/png/pc/fb_w.png" alt="facebook"></a></li>
+                        <li><a href="#"><img src="src/png/pc/ins_w.png" alt="instagram"></a></li>
+                        <li><a href="#"><img src="src/png/pc/tw_w.png" alt="twitter"></a></li>
+                        <li><a href="#"><img src="src/png/pc/ytb_w.png" alt="youtube"></a></li>
+                        <li><a href="#"><img src="src/png/pc/line_w.png" alt="line"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom flex_row flex_align_center flex_evenly">
+            <a href="#">このサイトについて</a><a href="#">個人情報保護方針</a>
+        </div>
+        <p class="footer_bottom_p">Copyright c 2023 Yoshiaki Kaneda All Resrved.</p>
+
     </footer>
 
 </body>
