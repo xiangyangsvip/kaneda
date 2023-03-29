@@ -57,6 +57,11 @@ svg {
     height: auto;
     border: 0;
 }
+.pubCon_100 {
+    display: block;
+    max-width: 100vw;
+    margin: 0 auto;
+}
 
 .pubCon_90 {
     display: block;
@@ -323,9 +328,9 @@ header .header_sns ul li {
 
 .blog {
     width: 100vw;
-    height: 93.08vh;
     background: #f3fdff;
-    padding-top: 9.21vh;
+    padding-top: 7.7vh;
+    padding-bottom: 16.92vh;
 }
 
 .section_title {
@@ -353,7 +358,7 @@ header .header_sns ul li {
 }
 
 .blog_showbox {
-    margin-top: 5.77vh;
+    margin-top: 6.7vh;
     width: 100%;
 }
 
@@ -389,8 +394,8 @@ header .header_sns ul li {
     color: black;
     font-weight: bold;
     display: block;
-    margin-top: 1.92vh;
-    margin-bottom: 1.92vh;
+    margin-top: 1.73vh;
+    margin-bottom: 1.73vh;
 }
 
 .blog_show p {
@@ -406,7 +411,7 @@ header .header_sns ul li {
     height: 5.77vh;
     margin-right: 0;
     margin-left: auto;
-    margin-top: 11.06vh;
+    margin-top: 10.57vh;
     padding-left: 2.083vw;
     transition: all 0.3s;
     position: relative;
@@ -447,18 +452,29 @@ header .header_sns ul li {
 
 .message {
     width: 100vw;
-    height: 165.87vh;
-    padding-top: 14.9vh;
+    padding-top: 15.09vh;
+    padding-bottom: 8.65vh;
+
+}
+.message_imgbox{
+    width: 100vw;
+    text-align: center;
+}
+.message_imgbox img{
+    width: 50vw;
 }
 
 .message_content {
-    margin-top: 9.62vh;
-    margin-bottom: 12.21vh;
+    margin-top: 9.61vh;
+    margin-bottom: 11.54vh;
+    max-width: 91.67vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .message_content p {
-    font-size: clamp(1px, 1.25vw, 18px);
-    line-height: 1.5;
+    font-size: clamp(1px, 1.32vw, 19px);
+    line-height: 2;
     color: black;
     font-weight: bold;
 }
@@ -474,21 +490,22 @@ header .header_sns ul li {
 
 .policy {
     width: 100vw;
-    height: 220vh;
-    padding-top: 9.23vh;
+    padding-top: 9.62vh;    
+    padding-bottom: 23.65vh;
 }
-
+.policy_showbox{
+    margin-top: 15.38vh;
+}
 .policy_showbox h2 {
     display: block;
     font-size: clamp(1px, 5vw, 72px);
     color: #0780A3;
     font-weight: bold;
     line-height: 1.5;
-    margin-top: 8vh;
 }
 
 .policy_show {
-    margin-top: 5.29vh;
+    margin-top: 5.77vh;
     display: flex;
     align-items: flex-start;
 
@@ -496,17 +513,16 @@ header .header_sns ul li {
 
 .policy_img1 {
     width: 36.458vw;
-    height: 30.67vh;
+    padding-bottom: 28.08vh;
 }
 
 .policy_img2 {
     width: 32.431vw;
-    height: 42.4vh;
+    padding-bottom: 18.37vh;
 }
 
 .policy_img3 {
     width: 31.667vw;
-    height: 43.85vh;
 }
 
 .policy_show ul {
@@ -523,9 +539,9 @@ header .header_sns ul li {
 
 .aboutus {
     width: 100vw;
-    height: 88.27vh;
-    padding-top: 5.77vh;
+    padding-top: 6.15vh;
     background-color: #f3fdff;
+    padding-bottom: 11.54vh;
 }
 
 .aboutus_title h1 {
@@ -534,6 +550,7 @@ header .header_sns ul li {
     color: #0780A3;
     font-weight: bold;
     line-height: 1.5;
+    padding-bottom: 5.20vh;
 }
 
 .aboutus_showbox {
@@ -541,7 +558,6 @@ header .header_sns ul li {
     height: 58.17vh;
     margin-right: 0;
     margin-left: auto;
-    margin-top: 5.77vh;
 }
 
 .aboutus_show {
@@ -555,8 +571,8 @@ header .header_sns ul li {
     color: black;
     font-weight: bold;
     line-height: 1.5;
-    margin-top: 6.35vh;
-    margin-bottom: 3.37vh;
+    margin-top: 6.73vh;
+    margin-bottom: 2.88vh;
 }
 
 .aboutus_show p {
@@ -568,10 +584,9 @@ header .header_sns ul li {
 
 .funclub {
     width: 100vw;
-    height: 66.06vh;
     background-color: #0780A3;
-    padding-top: 5.77vh;
-
+    padding-top: 4.81vh;
+    padding-bottom: 2.88vh;
 }
 
 .fun_clubbox {
@@ -641,10 +656,10 @@ header .header_sns ul li {
 }
 
 .funclub_memberbox {
-    width: 32vw;
+    width: 38.47vw;
     height: 58.46vh;
     align-items: flex-start;
-    margin-left: 11.458vw;
+    margin-left:5vw;
     border: 1px solid white;
     padding: 3.85vh 0 3.85vh 3.472vw;
 }
@@ -670,9 +685,9 @@ header .header_sns ul li {
 
 .bottom {
     width: 100vw;
-    height: 55vh;
     background-color: #1A2A51;
-    padding-top: 5.77vh;
+    padding-top: 5.29vh;
+    padding-bottom: 4.33vh;
 }
 
 .bottom h1 {
@@ -685,16 +700,12 @@ header .header_sns ul li {
 }
 
 .bottom_title img {
-    margin-top: 4.04vh;
     width: 28.333vw;
-    height: 30.29vh;
 }
 
 .bottom_info {
     margin-left: 10.069vw;
-    width: 48.333vw;
-    height: 42vh;
-
+    width: 48.44vw;
 }
 
 .bottom_info ul li {
@@ -706,7 +717,7 @@ header .header_sns ul li {
 }
 
 .bottom_info p {
-    margin-top: 5vh;
+    margin-top: 2.88vh;
     font-size: clamp(1px, 1.25vw, 18px);
     color: white;
     font-weight: 550;
@@ -717,9 +728,8 @@ header .header_sns ul li {
 
 footer {
     width: 100vw;
-    height: 12vh;
     background-color: #1A2A51;
-    padding: 1vh 0;
+    padding: 2.88vh 0;
 }
 
 .footerer_menu {
@@ -750,6 +760,7 @@ footer {
 .footer_bottom {
     width: 70vw;
     margin: 0 auto;
+    margin-top: 4.33vh;
     height: 50%;
 }
 
