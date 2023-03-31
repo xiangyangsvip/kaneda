@@ -59,7 +59,7 @@ svg {
     border: 0;
 }
 
-.pubCon_90 {
+.pubCon {
     display: block;
     max-width: 90vw;
     margin: 0 auto;
@@ -180,7 +180,7 @@ table {
 /* start */
 header {
     width: 100%;
-    height: 12.08vh;
+    height: 80px;
     z-index: 100;
     position: fixed;
     top: 0;
@@ -199,9 +199,9 @@ header .m_icon{
 .m_menu{
     background-color: #0780A3;
     width: 100%;
-    height: 88vh;
+    height: 100vh;
     position: fixed;
-    top: 12vh;
+    top: 80px;
     left: 0;
     z-index: 100;
     display: none;
@@ -250,7 +250,7 @@ header .m_icon{
 }
 
 .top_content {
-    padding-top: 13.6vh;
+    padding-top: 80px;
 }
 
 .top_content_text p {
@@ -267,7 +267,7 @@ header .m_icon{
     width: 95.789vw;
     position: absolute;
     right: 0;
-    bottom: 4.53vh;
+    bottom: 7.895vw;
     z-index: 10;
 }
 
@@ -280,8 +280,8 @@ header .m_icon{
 }
 .top_content_down{
     background-color: #f3fdff;
-    height: 66.47vh;
-    padding-top: 2.27vh;
+    padding-top: 5.263vw;
+    padding-bottom: 22.368vw;
 
 }
 
@@ -300,7 +300,7 @@ header .m_icon{
     height: 48.421vw;
     background: #0780A3;
     border-radius: 100%;
-    margin-top: 4.53vh;
+    margin-top: 7.895vw;
 }
 
 .top_detail_a {
@@ -317,12 +317,13 @@ header .m_icon{
 .blog {
     width: 100%;
     background: #f3fdff;
-    padding-bottom: 6vh;
+    padding-top: 85px;
+    padding-bottom: 10.526vw;
 }
 
 .section_title {
     width: 50vw;
-    height: 9.13vh;
+    height: 25vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -345,7 +346,7 @@ header .m_icon{
 }
 
 .blog_showbox {
-    margin-top: 7.55vh;
+    margin-top: 15.789vw;
     width: 100%;
 }
 
@@ -365,18 +366,18 @@ header .m_icon{
     transition: 0.6s;
 }
 
-/* .blog_show img:hover {
+.blog_show img:hover {
     transform: scale(1.1);
-} */
+}
 
-/* .blog_show img:hover {
+.blog_show img:hover {
     background-size: cover;
-} */
+}
 .blog_a_m{
     display: block;
     width: 85%;
     margin: 0 auto;
-    padding-bottom: 10vh;
+    padding-bottom: 31.579vw;
 
 }
 .blog_show span {
@@ -385,8 +386,8 @@ header .m_icon{
     color: black;
     font-weight: bold;
     display: block;
-    margin-top: 1.92vh;
-    margin-bottom: 1.92vh;
+    margin-top: 7.895vw;
+    margin-bottom: 7.895vw;
 }
 
 .blog_show p {
@@ -399,9 +400,8 @@ header .m_icon{
 .blog_btn {
     background-color: #0780A3;
     width: 78.947vw;
-    height: 9.06vh;
+    height: 15.789vw;
     margin: 0 auto;
-    margin-top: 11.06vh;
     padding-left: 10vw;
     transition: all 0.3s;
     position: relative;
@@ -424,8 +424,8 @@ header .m_icon{
     top: 45%;
     -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
-    width: 19.474vw;
-    height: 1.96vh;
+    width: 19.737vw;
+    height: 3.421vw;
     background-image: url(../src/png/pc/arrow_right.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -442,13 +442,13 @@ header .m_icon{
 
 .message {
     width: 100%;
-    height: 165.87vh;
-    padding-top: 14.9vh;
+    padding-top: 26.316vw;
+    padding-bottom: 2.632vw;
 }
 
 .message_content {
-    margin-top: 9.62vh;
-    margin-bottom: 12.21vh;
+    margin-top: 21.053vw;
+    margin-bottom: 18.421vw;
 }
 
 .message_content p {
@@ -469,8 +469,8 @@ header .m_icon{
 
 .policy {
     width: 100%;
-    padding-top: 9.23vh;
-    padding-bottom: 15vh;
+    padding-top: 85px;
+    padding-bottom: 36.842vw;
 }
 
 .policy_showbox h2 {
@@ -480,12 +480,12 @@ header .m_icon{
     font-weight: bolder;
     line-height: 1.5;
     margin: 0 auto;
-    margin-top: 8vh;
+    margin-top: 31.579vw;
 
 }
 
 .policy_show {
-    margin-top: 5.29vh;
+    margin-top: 15.789vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -507,7 +507,7 @@ header .m_icon{
 .policy_show ul {
     width: 83.553vw;
     margin: 0 auto;
-    padding-top: 6.04vh;
+    padding-top: 5.263vw;
 }
 
 .policy_show ul li {
@@ -516,12 +516,12 @@ header .m_icon{
     line-height: 1.5;
     color: black;
     font-weight: bold;
+    margin-left: 5.263vw;
 }
 
 .aboutus {
     width: 100%;
-    padding-top: 5.77vh;
-    padding-bottom: 15vh;
+    padding-top: 15.789vw;
     background-color: #f3fdff;
 }
 
@@ -544,7 +544,7 @@ header .m_icon{
 .aboutus_show {
     padding-left: 0.5vw;
     padding-right: 0.5vw;
-    padding-top: 7.55vh;
+    padding-top: 18.421vw;
 }
 
 .aboutus_show h3 {
@@ -553,8 +553,8 @@ header .m_icon{
     color: black;
     font-weight: bold;
     line-height: 1.5;
-    margin-top: 6.35vh;
-    margin-bottom: 3.37vh;
+    margin-top: 15.789vw;
+    margin-bottom: 7.895vw;
 }
 
 .aboutus_show p {
@@ -562,19 +562,17 @@ header .m_icon{
     color: black;
     font-weight: bold;
     line-height: 1.5;
+    padding-bottom: 35.526vw;
 }
 
 .funclub {
     width: 100%;
     background-color: #0780A3;
-    padding-top: 5.77vh;
-    padding-bottom: 15vh;
+    padding-top: 10.526vw;
+    padding-bottom: 15.789vw;
 
 }
-.funclub_showbox {
-    width: 86.842vw;
-    height: 45.32vh;
-}
+
 .funclub_showbox h1 {
     display: block;
     font-size: clamp(1px, 9.474vw, 36px);
@@ -582,13 +580,13 @@ header .m_icon{
     font-weight: bold;
     line-height: 1.5;
     margin: 0 auto;
-
+    margin-bottom: 13.158vw;
 }
 
 .funclub_btn {
     border: 1px solid white;
     width: 78.947vw;
-    height: 9.06vh;
+    height: 15.789vw;
     padding-left: 10vw;
     transition: all 0.3s;
     position: relative;
@@ -612,8 +610,8 @@ header .m_icon{
     top: 45%;
     -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
-    width: 19.474vw;
-    height: 1.96vh;
+    width: 19.737vw;
+    height: 3.421vw;
     background-image: url(../src/png/pc/arrow_right.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -636,20 +634,20 @@ header .m_icon{
     color: white;
     font-weight: bold;
     line-height: 1.5;
+    padding-top: 13.158vw;
+    padding-bottom: 13.158vw;
 }
 
 .funclub_memberbox {
-    width: 88.684vw;
-    height: 55.89vh;
+    width: 100%;
     align-items: flex-start;
     border: 1px solid white;
-    padding: 3.85vh 0 3.85vh 5.263vw;
+    padding: 5.263vw 0 5.263vw 7.895vw;
     margin: 0 auto;
-    margin-top: 6.04vh;
 }
 
 .funclub_member {
-    margin-bottom: 2.88vh;
+    margin-bottom: 3.947vw;
 }
 
 .funclub_memberbox p {
@@ -670,7 +668,8 @@ header .m_icon{
 .bottom {
     width: 100%;
     background-color: #1A2A51;
-    padding-top: 5.77vh;
+    padding-top: 5.263vw;
+    padding-bottom: 28.947vw;
 }
 
 .bottom h1 {
@@ -681,13 +680,13 @@ header .m_icon{
     font-weight: bold;
     line-height: 1.5;
     margin: 0 auto;
-
 }
 
 .bottom_title img {
     margin-top: 4.04vh;
     width: 90vw;
-    margin-bottom: 5vh;
+    margin-top: 9.474vw;
+    margin-bottom: 13.158vw;
 }
 
 .bottom_info {
@@ -705,7 +704,7 @@ header .m_icon{
 }
 
 .bottom_info p {
-    margin-top: 5vh;
+    margin-top: 7.895vw;
     font-size: clamp(1px, 4.211vw, 16px);
     color: white;
     font-weight: 550;
@@ -717,8 +716,8 @@ header .m_icon{
 footer {
     width: 100%;
     background-color: #1A2A51;
-    padding-top: 5.77vh;
-    padding-bottom: 10vh;
+    padding-top: 5.263vw;
+    padding-bottom: 5.263vw;
 }
 
 .footerer_menu {
@@ -737,15 +736,12 @@ footer {
 
 .footer_sns {
     width:80vw;
-    margin-top: 9.06vh;
+    margin-top: 9.474vw;
+    margin-bottom: 9.474vw;
 }
 
 .footer_sns ul {
     height: 100%;
-}
-
-.footer_bottom {
-    margin-top: 6.04vh;
 }
 
 .footer_bottom a {
@@ -757,7 +753,7 @@ footer {
 
 .footer_bottom_p {
     margin: 0 auto;
-    margin-top: 3.02vh;
+    margin-top: 5.263vw;
     text-align: center;
     color: white;
     font-size: clamp(1px, 3.158vw, 12px);
@@ -769,9 +765,9 @@ footer {
 /* profile */
 .profile_top{
     width: 100%;
-    height: 145.32vh;
     background: url(../src/png/m/top_bg2_m.jpg) no-repeat bottom;
-    padding-top: 15.11vh;
+    background-size: cover;
+    padding-top: 80px;
     position: relative;
 
 }
@@ -779,12 +775,9 @@ footer {
     width: 100%;
 }
 .profile_top_contentbox{
-    margin-top: 5vh;
-    height: 60vh;
-
+    margin-top: 7.895vw;
+    margin-bottom: 10.526vw;
  }
-
-
 
 .profile_top_content_text p {
     font-size: clamp(1px, 5.789vw, 22px);
@@ -792,6 +785,7 @@ footer {
     color: #0780A3;
     font-weight: bold;
     margin-left: 2.083vw;
+    padding-top: 10.526vw;
 }
 
 .profile_name {
@@ -800,9 +794,7 @@ footer {
 }
 .profile_img{
     width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+
 }
 
 .profile_top_content_title h1 {
@@ -815,17 +807,18 @@ footer {
 .profile_message{
     width: 100%;
     background-color: #0780A3;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 21.053vw;
+    padding-bottom: 13.158vw
 }
 .section_title2 {
-    width: 30vw;
+    width: 50vw;
+    height: 25vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 5vh;
+    margin-bottom: 22.632vw;
 }
 
 .section_title2 h1 {
@@ -841,6 +834,7 @@ footer {
     color: white;
     font-weight: bold;
 }
+
 
 .profile_message_content p {
     margin-top: 2.4vw;
@@ -858,21 +852,21 @@ footer {
     font-weight: bold;
     margin-top: 2.4vw;
 }
+
 .profile{
     width: 100%;
     background-color: white;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 23.684vw;
+    padding-bottom: 32.105vw;
+    
 }
-.profile_content{
-    margin-top: 10vh;
-}
+
 .profile_content img {
-    margin-top: 5vh;
+    margin-top: 10.526vw;
     height: 100vw;
 }
 .profile_info ul{
-    padding-top: 1.35vh;
+    padding-top: 26.316vw;
 }
 .profile_info ul li {
     font-size: clamp(1px, 4.211vw, 16px);
@@ -883,7 +877,7 @@ footer {
 }
 
 .profile_info p {
-    margin-top: 5vh;
+    margin-top: 10.526vw;
     font-size: clamp(1px, 4.211vw, 16px);
     color: #0780A3;
     font-weight: 550;

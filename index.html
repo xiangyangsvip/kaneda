@@ -23,14 +23,14 @@
 
 <body>
     <header class="cstyle" id="header_menu">
-        <div class=" flex_column flex_justify_center">
-            <div class="flex_row flex_align_center pubCon_70">
+        <div class="flex_column flex_justify_center">
+            <div class="flex_row flex_align_center pubCon_menu">
                 <div class="header_menu" id="right_border">
                     <ul class="flex_row flex_evenly" id="header_ul">
                         <li><a href="index.html">トップ</a></li>
                         <li><a href="profile.html">プロフィール</a></li>
-                        <li><a href="#policy">政策</a></li>
-                        <li><a href="#blog">活動報告</a></li>
+                        <li><a href="#policy_pc">政策</a></li>
+                        <li><a href="#blog_pc">活動報告</a></li>
                         <li><a href="#">お問い合わせ</a></li>
                     </ul>
                 </div>
@@ -45,18 +45,19 @@
                 </div>
             </div>
         </div>
+
     </header>
     <header class="mstyle" id="m_header">
         <div class="m_icon" id="m_icon"></div>
     </header>
     <section class="mstyle">
         <section class=" m_menu" id="m_menu">
-            <div class="pubCon_90 m_menu_content">
+            <div class="pubCon m_menu_content">
                 <ul>
                     <li><a href="index.html">トップ</a></li>
                     <li><a href="profile.html">プロフィール</a></li>
-                    <li><a href="#policy">政策</a></li>
-                    <li><a href="#blog">活動報告</a></li>
+                    <li><a href="#policy_m">政策</a></li>
+                    <li><a href="#blog_m">活動報告</a></li>
                     <li><a href="#">お問い合わせ</a></li>
                 </ul>
             </div>
@@ -128,14 +129,13 @@
         </a>
     </div>
 
-    <a name="blog" class="go_to"></a>
-    <section class="blog cstyle">
+    <section id="blog_pc" class="blog cstyle">
         <div class="section_title">
             <img src="src/png/pc/point.png" alt="">
             <h1>BLOG</h1>
             <p>活動報告</p>
         </div>
-        <div class="blog_showbox pubCon_90 flex_row flex_align_start flex_evenly">
+        <div class="blog_showbox pubCon flex_row flex_align_start flex_evenly">
             <div class="blog_show">
                 <div class="blog_imgbox">
                     <a href="">
@@ -212,13 +212,13 @@
                 </a>
             </div>
         </div>
-        <a href="#" class="blog_btn_a pubCon_90">
+        <a href="#" class="blog_btn_a pubCon">
             <div class="blog_btn flex_row flex_align_center">
                 活動報告一覧へ
             </div>
         </a>
     </section>
-    <section class="blog mstyle">
+    <section id="blog_m" class="blog mstyle">
         <div class="section_title">
             <img src="src/png/pc/point.png" alt="">
             <h1>BLOG</h1>
@@ -325,13 +325,13 @@
             </p>
             <span class="right">金田佳晃</span>
         </div>
-        <div class="pubCon_100 message_imgbox flex_row">
+        <div class="message_imgbox flex_row">
             <div> <img src="src/jpg/pc/message_01.jpg" alt="">
             </div>
             <div> <img src="src/jpg/pc/message_02.jpg" alt="">
             </div>
         </div>
-        <div class="pubCon_100 message_imgbox flex_row">
+        <div class="message_imgbox flex_row">
 
             <div> <img src="src/jpg/pc/message_03.jpg" alt="">
             </div>
@@ -345,7 +345,7 @@
             <h1>MESSAGE</h1>
             <p>メッセージ</p>
         </div>
-        <div class="message_content pubCon_90">
+        <div class="message_content pubCon">
             <p>私は民間企業のサラリーマンとして勤務する傍ら、休日は地域活動に励んでまいりました。<br />
                 町会役員や青年地区委員など、地域行事のスタッフとして参加させていただく中で、「私たちの街は可能性が大いにあるはずだ！」と強く実感し、志を固
                 めました。<br />
@@ -375,14 +375,13 @@
         </table>
     </section>
 
-    <a name="policy" class="go_to"></a>
-    <section class="policy cstyle">
+    <section id="policy_pc" class="policy cstyle">
         <div class="section_title">
             <img src="src/png/pc/point.png" alt="">
             <h1>POLICY</h1>
             <p>政策</p>
         </div>
-        <div class="policy_showbox flex_column pubCon_90">
+        <div class="policy_showbox flex_column pubCon">
             <h2>安全・安心の住みやすいまちづくり</h2>
             <div class="policy_show">
                 <img src="src/png/pc/policy_01.png" alt="" class="policy_img1">
@@ -415,17 +414,17 @@
                 </ul>
             </div>
     </section>
-    <section class="policy mstyle">
+    <section id="policy_m" class="policy mstyle">
         <div class="section_title">
             <img src="src/png/pc/point.png" alt="">
             <h1>POLICY</h1>
             <p>政策</p>
         </div>
-        <div class="policy_showbox flex_column pubCon_90">
+        <div class="policy_showbox flex_column pubCon">
             <h2>安全・安心の住みやすいまちづくり</h2>
             <div class="policy_show">
                 <img src="src/png/m/policy_01_m.png" alt="" class="policy_img1">
-                <ul class="pubCon_90">
+                <ul class="pubCon">
                     <li>昭和町地区・堀船地区・東田端地区を中心とした地域課題の解決</li>
                     <li>上中里・栄町・堀船地域の不燃化、建て替え促進</li>
                     <li>コミュニティバス路線の拡充</li>
@@ -456,7 +455,7 @@
     </section>
 
     <section class="aboutus cstyle">
-        <div class="pubCon_90">
+        <div class="pubCon">
             <div class="aboutus_title">
                 <h1>私たちも応援します！</h1>
             </div>
@@ -503,7 +502,7 @@
 
     </section>
     <section class="aboutus mstyle">
-        <div class="pubCon_90">
+        <div class="pubCon">
             <div class="aboutus_title">
                 <h1>私たちも応援します！</h1>
             </div>
@@ -551,7 +550,7 @@
     </section>
 
     <section class="funclub cstyle">
-        <div class="pubCon_90 flex_row fun_clubbox">
+        <div class="pubCon flex_row fun_clubbox">
             <div class="funclub_showbox flex_column flex_between flex_align_start">
                 <h1>金田よしあき後援会</h1>
                 <a href="" class="funclub_btn_a">
@@ -627,7 +626,7 @@
 
     </section>
     <section class="funclub mstyle">
-        <div class="pubCon_90 flex_column fun_clubbox">
+        <div class="pubCon flex_column fun_clubbox">
             <div class="funclub_showbox flex_column flex_between flex_align_start">
                 <h1>金田よしあき後援会</h1>
                 <a href="" class="funclub_btn_a">
@@ -704,7 +703,7 @@
     </section>
 
     <section class="bottom cstyle">
-        <div class="pubCon_90 flex_row flex_align_center">
+        <div class="pubCon flex_row flex_align_center">
             <div class="bottom_title">
                 <h1>金田よしあき</h1>
                 <img src="src/jpg/pc/kaneda.jpg" alt="">
@@ -734,7 +733,7 @@
 
     </section>
     <section class="bottom mstyle">
-        <div class="pubCon_90 flex_column flex_align_center">
+        <div class="pubCon flex_column flex_align_center">
             <div class="bottom_title">
                 <h1>金田よしあき</h1>
                 <img src="src/jpg/pc/kaneda.jpg" alt="">
@@ -766,13 +765,13 @@
 
     <footer class="cstyle">
         <div class="footer_menubox">
-            <div class="flex_row flex_align_center pubCon_70">
+            <div class="flex_row flex_align_center pubCon_menu">
                 <div class="footerer_menu">
                     <ul class="flex_row flex_evenly">
                         <li><a href="index.html">トップ</a></li>
                         <li><a href="profile.html">プロフィール</a></li>
-                        <li><a href="index.html#policy">政策</a></li>
-                        <li><a href="index.html#blog">活動報告</a></li>
+                        <li><a href="#policy_pc">政策</a></li>
+                        <li><a href="#blog_pc">活動報告</a></li>
                         <li><a href="#">お問い合わせ</a></li>
                     </ul>
                 </div>
@@ -799,8 +798,8 @@
                     <ul class="flex_row flex_evenly">
                         <!-- <li><a href="index.html">トップ</a></li> -->
                         <li><a href="profile.html">プロフィール</a></li>
-                        <li><a href="index.html#policy">政策</a></li>
-                        <li><a href="index.html#blog">活動報告</a></li>
+                        <li><a href="#policy_m">政策</a></li>
+                        <li><a href="#blog_m">活動報告</a></li>
                         <li><a href="#">お問い合わせ</a></li>
                     </ul>
                 </div>

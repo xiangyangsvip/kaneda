@@ -3,32 +3,20 @@
 
 
 /* init */
-/* 
-html {
-  overflow-y: scroll;
-}
-:root {
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-:root body {
-  position: absolute;
-} 
-*/
 
 body {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     font-family: "Hiragino Sans";
     background: #fff;
     margin: 0;
     padding: 0;
-    /* overflow-x: hidden; */
+    cursor: default;
 }
 
 a {
     display: inline-block;
     text-decoration: none;
+    cursor: pointer;
 }
 
 button {
@@ -53,19 +41,20 @@ button:focus {
 
 img,
 svg {
-    max-width: 100%;
+    /* max-width: 100%; */
     height: auto;
     border: 0;
 }
-.pubCon_100 {
+
+.pubCon {
     display: block;
-    max-width: 100vw;
+    max-width: 93.056vw;
     margin: 0 auto;
 }
 
 .pubCon_90 {
     display: block;
-    max-width: 90vw;
+    max-width: 80vw;
     margin: 0 auto;
 }
 
@@ -74,10 +63,15 @@ svg {
     max-width: 80vw;
     margin: 0 auto;
 }
-
-.pubCon_70 {
+.pubCon_80 {
     display: block;
-    max-width: 70vw;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.pubCon_menu {
+    display: block;
+    max-width: 66.167vw;
     margin: 0 auto;
 }
 
@@ -183,8 +177,8 @@ table {
 
 /* start */
 header {
-    width: 100vw;
-    height: 7.69vh;
+    width: 100%;
+    height: 80px;
     background: rgba(0, 0, 0, 0);
     z-index: 100;
     padding: 1.44vh 0;
@@ -195,20 +189,19 @@ header {
 }
 
 header .header_menu {
-    width: 64.028vw;
-    height: 100%;
+    width: 65vw;
+    height: 50px;
     border-right: 1px solid #0780A3;
 }
 
 header .header_menu a {
     color: #0780A3;
     font-size: clamp(1px, 1.5vw, 20px);
-    line-height: 1.5;
+    line-height: 50px;
     font-weight: bold;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom:1vh;
 }
 .header_menu a:hover{
     background: url(../src/png/pc/point.png) no-repeat bottom;
@@ -216,8 +209,8 @@ header .header_menu a {
 
 header .header_sns {
     width: 35.972vw;
-    height: 2.88vh;
-    padding: 4px 0;
+    height: 50px;
+    padding: 0.278vw 0;
 }
 
 #sns01 {
@@ -241,25 +234,25 @@ header .header_sns {
 }
 
 header .header_sns ul {
-    height: 2.02vh;
+    height: 50px;
 }
 
 header .header_sns ul li {
+    line-height: 50px;
     margin-left: 2.083vw;
 }
 
 .top {
-    width: 100vw;
+    width: 100%;
     height: 95vh;
     background: url(../src/png/pc/top_bg.png) no-repeat center center;
-    background-size: cover;
-    padding-top: 7.69vh;
+    background-size: 100% 100%;
+    padding-top: 80px;
     position: relative;
 }
 
 .top_content {
-    margin-top: 4.62vh;
-    width: 67vw;
+    width: 66.667vw;
     margin-right: 0;
     margin-left: auto;
 }
@@ -271,12 +264,12 @@ header .header_sns ul li {
     color: #0780A3;
     font-weight: bold;
     margin-left: auto;
-    margin-right: 5.556vw;
+    margin-right: 3.556vw;
 }
 
 .top_content img {
-    width: 66.389vw;
-    margin-bottom: 2.69vh;
+    width: 66.667vw;
+    margin-bottom:1vw;
     z-index: 10;
 }
 
@@ -291,7 +284,7 @@ header .header_sns ul li {
 }
 
 .kaneda .photo {
-    width: 56.319vw;
+    width: 44.444vw;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -300,7 +293,7 @@ header .header_sns ul li {
 .kaneda .logo {
     width: 3.778vw;
     position: absolute;
-    bottom: 2.4vh;
+    bottom: 1.389vw;
     left: 3.819vw;
 }
 
@@ -308,11 +301,11 @@ header .header_sns ul li {
     width: 12.85vw;
     height: 12.85vw;
     background: #0780A3;
-    border-radius: 100vw;
+    border-radius: 100%;
     position: absolute;
     right: 5.764vw;
-    bottom: -2.88vh;
-    padding: 2.88vh 0;
+    bottom: -3vw;
+    padding: 1.389vw 0;
 }
 
 .top_detail_a {
@@ -327,15 +320,15 @@ header .header_sns ul li {
 }
 
 .blog {
-    width: 100vw;
+    width: 100%;
     background: #f3fdff;
-    padding-top: 7.7vh;
-    padding-bottom: 16.92vh;
+    padding-top: 5.556vw;
+    padding-bottom: 12.222vw;
 }
 
 .section_title {
     width: 10vw;
-    height: 9.13vh;
+    height: 6.597vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -358,7 +351,7 @@ header .header_sns ul li {
 }
 
 .blog_showbox {
-    margin-top: 6.7vh;
+    margin-top: 4.861vw;
     width: 100%;
 }
 
@@ -394,8 +387,8 @@ header .header_sns ul li {
     color: black;
     font-weight: bold;
     display: block;
-    margin-top: 1.73vh;
-    margin-bottom: 1.73vh;
+    margin-top: 1.042vw;
+    margin-bottom: 1.389vw;
 }
 
 .blog_show p {
@@ -408,10 +401,10 @@ header .header_sns ul li {
 .blog_btn {
     background-color: #0780A3;
     width: 20.833vw;
-    height: 5.77vh;
+    height: 4.167vw;
     margin-right: 0;
     margin-left: auto;
-    margin-top: 10.57vh;
+    margin-top: 7.639vw;
     padding-left: 2.083vw;
     transition: all 0.3s;
     position: relative;
@@ -435,7 +428,7 @@ header .header_sns ul li {
     -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
     width: 5.181vw;
-    height: 1.25vh;
+    height: 0.903vw;
     background-image: url(../src/png/pc/arrow_right.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -451,13 +444,12 @@ header .header_sns ul li {
 }
 
 .message {
-    width: 100vw;
-    padding-top: 15.09vh;
-    padding-bottom: 8.65vh;
-
+    width: 100%;
+    padding-top: 10.417vw;
+    padding-bottom: 8.333vw;
 }
 .message_imgbox{
-    width: 100vw;
+    width: 100%;
     text-align: center;
 }
 .message_imgbox img{
@@ -465,9 +457,9 @@ header .header_sns ul li {
 }
 
 .message_content {
-    margin-top: 9.61vh;
-    margin-bottom: 11.54vh;
-    max-width: 91.67vw;
+    margin-top: 6.944vw;
+    margin-bottom: 12.5vw;
+    max-width: 93.056vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -489,12 +481,12 @@ header .header_sns ul li {
 }
 
 .policy {
-    width: 100vw;
-    padding-top: 9.62vh;    
-    padding-bottom: 23.65vh;
+    width: 100%;
+    padding-top: 5.556vw;
+    padding-bottom: 16.667vw;
 }
 .policy_showbox{
-    margin-top: 15.38vh;
+    margin-top: 11.111vw;
 }
 .policy_showbox h2 {
     display: block;
@@ -505,7 +497,7 @@ header .header_sns ul li {
 }
 
 .policy_show {
-    margin-top: 5.77vh;
+    margin-top: 4.167vw;
     display: flex;
     align-items: flex-start;
 
@@ -513,12 +505,12 @@ header .header_sns ul li {
 
 .policy_img1 {
     width: 36.458vw;
-    padding-bottom: 28.08vh;
+    padding-bottom: 19.097vw;
 }
 
 .policy_img2 {
     width: 32.431vw;
-    padding-bottom: 18.37vh;
+    padding-bottom: 11.806vw;
 }
 
 .policy_img3 {
@@ -538,10 +530,10 @@ header .header_sns ul li {
 }
 
 .aboutus {
-    width: 100vw;
-    padding-top: 6.15vh;
+    width: 100%;
+    padding-top: 60px;
     background-color: #f3fdff;
-    padding-bottom: 11.54vh;
+    padding-bottom: 8.333vw;
 }
 
 .aboutus_title h1 {
@@ -550,12 +542,11 @@ header .header_sns ul li {
     color: #0780A3;
     font-weight: bold;
     line-height: 1.5;
-    padding-bottom: 5.20vh;
+    padding-bottom: 4.167vw;
 }
 
 .aboutus_showbox {
     width: 46.632vw;
-    height: 58.17vh;
     margin-right: 0;
     margin-left: auto;
 }
@@ -571,8 +562,8 @@ header .header_sns ul li {
     color: black;
     font-weight: bold;
     line-height: 1.5;
-    margin-top: 6.73vh;
-    margin-bottom: 2.88vh;
+    margin-top: 4.167vw;
+    margin-bottom: 2.083vw;
 }
 
 .aboutus_show p {
@@ -583,14 +574,10 @@ header .header_sns ul li {
 }
 
 .funclub {
-    width: 100vw;
+    width: 100%;
     background-color: #0780A3;
-    padding-top: 4.81vh;
-    padding-bottom: 2.88vh;
-}
-
-.fun_clubbox {
-    height: 58.46vh;
+    padding-top: 3.472vw;
+    padding-bottom: 2.083vw;
 }
 
 .funclub_showbox h1 {
@@ -599,13 +586,12 @@ header .header_sns ul li {
     color: white;
     font-weight: bold;
     line-height: 1.5;
-
 }
 
 .funclub_btn {
     border: 1px solid white;
     width: 20.833vw;
-    height: 5.77vh;
+    height: 4.167vw;
     padding-left: 2.083vw;
     transition: all 0.3s;
     position: relative;
@@ -630,7 +616,7 @@ header .header_sns ul li {
     -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
     width: 5.181vw;
-    height: 1.25vh;
+    height: 0.903vw;
     background-image: url(../src/png/pc/arrow_right.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -657,15 +643,14 @@ header .header_sns ul li {
 
 .funclub_memberbox {
     width: 38.47vw;
-    height: 58.46vh;
     align-items: flex-start;
     margin-left:5vw;
     border: 1px solid white;
-    padding: 3.85vh 0 3.85vh 3.472vw;
+    padding: 2.778vw 0 0.6vw 4.167vw;
 }
 
 .funclub_member {
-    margin-bottom: 2.88vh;
+    margin-bottom: 2.083vw;
 }
 
 .funclub_memberbox p {
@@ -684,10 +669,10 @@ header .header_sns ul li {
 }
 
 .bottom {
-    width: 100vw;
+    width: 100%;
     background-color: #1A2A51;
-    padding-top: 5.29vh;
-    padding-bottom: 4.33vh;
+    padding-top: 3.472vw;
+    padding-bottom: 3.472vw;
 }
 
 .bottom h1 {
@@ -727,9 +712,9 @@ header .header_sns ul li {
 }
 
 footer {
-    width: 100vw;
+    width: 100%;
     background-color: #1A2A51;
-    padding: 2.88vh 0;
+    padding: 2.083vw 0;
 }
 
 .footerer_menu {
@@ -760,7 +745,7 @@ footer {
 .footer_bottom {
     width: 70vw;
     margin: 0 auto;
-    margin-top: 4.33vh;
+    margin-top: 2.778vw;
     height: 50%;
 }
 
@@ -781,22 +766,21 @@ footer {
 
 /* profile */
 .profile_top{
-    width: 100vw;
-    height: 99vh;
-    background: url(../src/png/pc/top_bg2.png) no-repeat;
-    padding-top: 6vh;
+    width: 100%;
+    height: 37.5vw;
+    background: url(../src/png/pc/top_bg2.png) no-repeat center;
+    background-size: cover;
+    padding-top: 80px;
 }
 .profile_top_content{
-    width: 100vw;
-    height: 45vh;
+    width: 100%;
+    height: 31.667vw;
     position: relative;
 }
 .profile_top_contentbox{
-    margin-top: 5vh;
-    width: 67vw;
+    padding-top: 2.083vw;
+    width: 71.278vw;
  }
-
-
 
 .profile_top_content_text p {
     width: 32vw;
@@ -811,14 +795,14 @@ footer {
     width: 65vw;
     z-index: 10;
     position: absolute;
-    bottom:-3vh;
+    bottom:-2.083vw;
     left: 0;
 }
 .profile_img{
-    height: 50vh;
+    height: 32.083vw;
     position: absolute;
-    right: -5vw;
-    bottom: 0;
+    right: 0;
+    bottom: 0.347vw;
 }
 
 .profile_top_content_title h1 {
@@ -829,14 +813,14 @@ footer {
     font-weight: bolder;
 }
 .profile_message{
-    height: 50vh;
-    width: 100vw;
+    width: 100%;
     background-color: #0780A3;
-    padding-top: 5.5vh;
+    padding-top: 4vw;
+    padding-bottom: 2.083vw;
 }
 .section_title2 {
-    width: 6.458vw;
-    height: 9.13vh;
+    width: 10vw;
+    height: 6.597vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -858,6 +842,7 @@ footer {
     font-weight: bold;
 }
 
+
 .profile_message_content p {
     margin-top: 2.4vw;
     font-size: clamp(1px, 1.25vw, 18px);
@@ -875,13 +860,13 @@ footer {
     margin-top: 2.4vw;
 }
 .profile{
-    height: 98vh;
-    width: 100vw;
+    width: 100%;
     background-color: white;
-    padding-top: 8vh;
+    padding-top: 5.556vw;
+    padding-bottom: 19.444vw;
 }
 .profile_content{
-    margin-top: 8vh;
+    margin-top: 6.944vw;
 }
 .profile_content img {
     width: 31.74vw;
@@ -890,10 +875,9 @@ footer {
 
 .profile_info {
     margin-left: 10.069vw;
+    height: 31.74vw;
 }
-.profile_info ul{
-    padding-top: 1.35vh;
-}
+
 .profile_info ul li {
     font-size: clamp(1px, 1.25vw, 18px);
     color: #0780A3;
